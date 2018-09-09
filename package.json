@@ -1,0 +1,11 @@
+{
+  "name": "@engineforce/build-config",
+  "version": "0.0.1",
+  "description": "Build Config",
+  "author": "Paul Li",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-node-externals": "^1.7.2"
+  }
+}
