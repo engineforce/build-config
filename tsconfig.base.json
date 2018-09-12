@@ -10,8 +10,6 @@
       "node",
       "jest"
     ],
-    "allowJs": true,
-    "checkJs": true,
     "preserveConstEnums": true,
     "jsx": "preserve",
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
@@ -22,7 +20,6 @@
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "composite": true,                     /* Enable project compilation */
     "removeComments": false,
-    "noEmit": true,
     "importHelpers": true,
     // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
     "isolatedModules": true,
