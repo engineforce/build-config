@@ -1,6 +1,6 @@
 {
   "name": "@engineforce/build-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Build Config",
   "author": "Paul Li",
   "main": "index.js",
