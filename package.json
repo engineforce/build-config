@@ -5,11 +5,9 @@
   "author": "Paul Li",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "webpack-node-externals": "^1.7.2"
-  },
   "peerDependencies": {
     "babel-loader": "*",
-    "serverless-webpack": "*"
+    "serverless-webpack": "*",
+    "webpack-node-externals": "*"
   }
 }
