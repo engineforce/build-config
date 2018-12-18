@@ -3,9 +3,9 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    index: './index.js'
+    index: './index.js',
   },
-  minimize: !process.env.DEBUG,
+  minimize: false,
   cleanOutDir: true,
   html: false,
   sourceMap: false,
@@ -16,11 +16,11 @@ module.exports = {
     config.externals = [
       nodeExternals({
         // modulesDir: "../../node_modules",
-        modulesFromFile: true
-      })
+        modulesFromFile: true,
+      }),
     ];
 
     return config;
-  }
+  },
   // plugins: [require('@poi/plugin-typescript')()],
 };
